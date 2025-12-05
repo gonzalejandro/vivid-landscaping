@@ -1,0 +1,26 @@
+# Site settings
+title: Andes Stump Grinding
+description: Professional stump grinding services. Serving your stump removal needs with quality and reliability.
+url: https://www.andeshomeservices.com
+baseurl: ""
+
+# Contact information
+email: info@andeshomeservices.com
+phone: "(248) 509-5011"
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
