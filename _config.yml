@@ -1,12 +1,12 @@
 # Site settings
-title: Andes Stump Grinding
-description: Professional stump grinding services. Serving your stump removal needs with quality and reliability.
-url: https://www.andeshomeservices.com
+title: Vivid Landscaping
+description: Professional landscaping services in Sterling Heights, MI. Quality landscape design, installation, and maintenance.
+url: https://www.vividlandscaping.net
 baseurl: ""
 
 # Contact information
-email: info@andeshomeservices.com
-phone: "(248) 509-5011"
+email: info@vividlandscaping.net
+phone: "(586) 808-1099"
 
 # Build settings
 markdown: kramdown

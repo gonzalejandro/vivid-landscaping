@@ -19,7 +19,7 @@ body {
 
 /* Header */
 header {
-    background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+    background: linear-gradient(135deg, #2d5a27 0%, #3d7a35 100%);
     color: white;
     padding: 3rem 0;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
@@ -79,8 +79,8 @@ header .container {
 
 /* Hero Section */
 .hero {
-    background-image: linear-gradient(rgba(44, 62, 80, 0.7), rgba(52, 73, 94, 0.7)),
-                      url('/assets/background.jpg');
+    background-image: linear-gradient(rgba(45, 90, 39, 0.6), rgba(61, 122, 53, 0.6)),
+                      url('https://images.unsplash.com/photo-1416879595882-3373a0480b5b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -133,7 +133,7 @@ header .container {
 .about-text h2 {
     font-size: 2.5rem;
     margin-bottom: 2rem;
-    color: #2c3e50;
+    color: #2d5a27;
     text-align: left;
 }
 
@@ -177,7 +177,7 @@ header .container {
 .services h2 {
     font-size: 2.5rem;
     margin-bottom: 3rem;
-    color: #2c3e50;
+    color: #2d5a27;
     text-align: center;
 }
 
@@ -186,7 +186,7 @@ header .container {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
     justify-items: center;
-    max-width: 600px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -226,7 +226,7 @@ header .container {
 .service-card h3 {
     font-size: 1.8rem;
     margin-bottom: 1rem;
-    color: #2c3e50;
+    color: #2d5a27;
     padding: 1.5rem 2rem 0;
 }
 
@@ -245,7 +245,7 @@ header .container {
 .contractors h2 {
     font-size: 2.5rem;
     margin-bottom: 3rem;
-    color: #2c3e50;
+    color: #2d5a27;
     text-align: center;
 }
 
@@ -280,7 +280,7 @@ header .container {
 .contractor-card h3 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
-    color: #2c3e50;
+    color: #2d5a27;
 }
 
 .contractor-card p {
@@ -361,7 +361,7 @@ header .container {
 .service-area h2 {
     font-size: 2.5rem;
     margin-bottom: 2rem;
-    color: #2c3e50;
+    color: #2d5a27;
     text-align: center;
 }
 
@@ -396,7 +396,7 @@ header .container {
 
 .county-item h3 {
     font-size: 1.5rem;
-    color: #2c3e50;
+    color: #2d5a27;
     margin: 0;
 }
 
@@ -413,7 +413,7 @@ header .container {
 .why-choose-us h2 {
     font-size: 2.5rem;
     margin-bottom: 3rem;
-    color: #2c3e50;
+    color: #2d5a27;
     text-align: center;
 }
 
@@ -448,7 +448,7 @@ header .container {
 .benefit-card h3 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
-    color: #2c3e50;
+    color: #2d5a27;
 }
 
 .benefit-card p {
@@ -466,7 +466,7 @@ header .container {
 .faq h2 {
     font-size: 2.5rem;
     margin-bottom: 3rem;
-    color: #2c3e50;
+    color: #2d5a27;
     text-align: center;
 }
 
@@ -503,7 +503,7 @@ header .container {
 
 .faq-arrow {
     font-size: 0.8rem;
-    color: #3498db;
+    color: #27ae60;
     transition: transform 0.3s ease;
     flex-shrink: 0;
     display: inline-block;
@@ -512,7 +512,7 @@ header .container {
 .faq-question-text {
     font-size: 1.3rem;
     font-weight: 600;
-    color: #2c3e50;
+    color: #2d5a27;
     flex: 1;
 }
 
@@ -531,14 +531,14 @@ header .container {
 }
 
 .faq-answer a {
-    color: #3498db;
+    color: #27ae60;
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s ease;
 }
 
 .faq-answer a:hover {
-    color: #2980b9;
+    color: #229954;
     text-decoration: underline;
 }
 
@@ -552,7 +552,7 @@ header .container {
 .contact h2 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
-    color: #2c3e50;
+    color: #2d5a27;
 }
 
 .contact > p {
@@ -575,7 +575,7 @@ header .container {
 }
 
 .contact-info a {
-    color: #3498db;
+    color: #27ae60;
     text-decoration: none;
     font-weight: 500;
 }
@@ -590,7 +590,7 @@ header .container {
     bottom: 0;
     left: 0;
     right: 0;
-    background: #2c3e50;
+    background: #2d5a27;
     color: white;
     padding: 1.5rem;
     box-shadow: 0 -2px 10px rgba(0,0,0,0.2);
@@ -626,12 +626,12 @@ header .container {
 }
 
 .cookie-consent-content a {
-    color: #3498db;
+    color: #27ae60;
     text-decoration: underline;
 }
 
 .cookie-consent-content a:hover {
-    color: #2980b9;
+    color: #229954;
 }
 
 .cookie-consent-buttons {
@@ -653,12 +653,12 @@ header .container {
 }
 
 .cookie-accept {
-    background: #3498db;
+    background: #27ae60;
     color: white;
 }
 
 .cookie-accept:hover {
-    background: #2980b9;
+    background: #229954;
     transform: translateY(-2px);
 }
 
@@ -751,7 +751,7 @@ header .container {
 .cookie-modal-header h2 {
     margin: 0;
     font-size: 1.8rem;
-    color: #2c3e50;
+    color: #2d5a27;
 }
 
 .cookie-modal-close {
@@ -772,7 +772,7 @@ header .container {
 
 .cookie-modal-close:hover {
     background: #f8f9fa;
-    color: #2c3e50;
+    color: #2d5a27;
 }
 
 .cookie-modal-body {
@@ -781,7 +781,7 @@ header .container {
 }
 
 .cookie-modal-body h3 {
-    color: #2c3e50;
+    color: #2d5a27;
     font-size: 1.3rem;
     margin-top: 1.5rem;
     margin-bottom: 1rem;
@@ -837,7 +837,7 @@ header .container {
 
 /* Footer */
 footer {
-    background: #2c3e50;
+    background: #2d5a27;
     color: white;
     padding: 2rem 0;
     text-align: center;
@@ -848,7 +848,7 @@ footer {
     position: fixed;
     bottom: 2rem;
     left: 2rem;
-    background: #2c3e50;
+    background: #2d5a27;
     color: white;
     border: none;
     border-radius: 50px;
@@ -856,7 +856,7 @@ footer {
     font-size: 1rem;
     font-weight: 600;
     cursor: pointer;
-    box-shadow: 0 4px 12px rgba(44, 62, 80, 0.4);
+    box-shadow: 0 4px 12px rgba(45, 90, 39, 0.4);
     z-index: 1000;
     display: flex;
     align-items: center;
@@ -866,9 +866,9 @@ footer {
 }
 
 .floating-scroll-top-btn:hover {
-    background: #34495e;
+    background: #3d7a35;
     transform: translateY(-2px);
-    box-shadow: 0 6px 16px rgba(44, 62, 80, 0.5);
+    box-shadow: 0 6px 16px rgba(45, 90, 39, 0.5);
 }
 
 .floating-scroll-top-btn:active {
@@ -886,7 +886,7 @@ footer {
     position: fixed;
     bottom: 2rem;
     right: 2rem;
-    background: #3498db;
+    background: #27ae60;
     color: white;
     border: none;
     border-radius: 50px;
@@ -894,7 +894,7 @@ footer {
     font-size: 1rem;
     font-weight: 600;
     cursor: pointer;
-    box-shadow: 0 4px 12px rgba(52, 152, 219, 0.4);
+    box-shadow: 0 4px 12px rgba(39, 174, 96, 0.4);
     z-index: 1000;
     display: flex;
     align-items: center;
@@ -904,9 +904,9 @@ footer {
 }
 
 .floating-contact-btn:hover {
-    background: #2980b9;
+    background: #229954;
     transform: translateY(-2px);
-    box-shadow: 0 6px 16px rgba(52, 152, 219, 0.5);
+    box-shadow: 0 6px 16px rgba(39, 174, 96, 0.5);
 }
 
 .floating-contact-btn:active {
