@@ -1,8 +1,8 @@
 # Site settings
 title: Vivid Landscaping
 description: Professional landscaping services in Sterling Heights, MI. Quality landscape design, installation, and maintenance.
-url: https://www.vividlandscaping.net
-baseurl: ""
+url: https://gonzalejandro.github.io
+baseurl: "/vivid-landscaping"
 
 # Contact information
 email: info@vividlandscaping.net
