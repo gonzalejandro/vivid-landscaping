@@ -7,7 +7,7 @@ description: Vivid Landscaping - Professional landscaping services in Sterling H
 <header>
     <div class="container">
         <div class="logo">
-            <img src="{{ '/assets/andes-stump-grinding.png' | relative_url }}" alt="{{ site.title }}" class="logo-image">
+            <img src="{{ '/assets/vivid-landscape-transparent.png' | relative_url }}" alt="{{ site.title }}" class="logo-image">
             <div class="logo-content">
                 <h1>{{ site.title }}</h1>
                 <p class="tagline">Professional Landscaping Services</p>
@@ -30,14 +30,13 @@ description: Vivid Landscaping - Professional landscaping services in Sterling H
             <div class="about-content">
                 <div class="about-text">
                     <h2>About Us</h2>
-                    <p>At {{ site.title }}, we're proud to be Sterling Heights' trusted choice for professional landscaping services. We combine creative design, reliable service, and skilled workmanship to transform your outdoor spaces into beautiful, functional landscapes.</p>
-                    <p>Creating a beautiful landscape requires expertise, quality materials, and attention to detail. That's why we focus on providing homeowners and businesses with comprehensive landscaping solutions — from initial design to ongoing maintenance, ensuring your property looks its best year-round.</p>
-                    <p>Whether it's a small garden makeover or a complete landscape transformation, we treat every project with care and dedication. Our mission is simple: create outdoor spaces that enhance your property value and bring you joy.</p>
+                    <p>Vivid Landscape Services is a family-owned and operated business based in Sterling Heights, Michigan, proudly serving the community since 2007. We're known for dependable service, quality workmanship, and attention to detail on every project.</p>
+                    <p>From lawn care and seasonal cleanups to stump grinding and snow removal, we help homeowners and businesses maintain outdoor spaces that look great and function year-round.</p>
                     <p>We are <strong>fully insured</strong> for your peace of mind.</p>
-                    <p><strong>{{ site.title }} — local, dependable, and built on hard work.</strong></p>
+                    <p><strong>Vivid Landscape Services — local, family-owned, and built on hard work since 2007.</strong></p>
                 </div>
                 <div class="about-image">
-                    <img src="https://images.unsplash.com/photo-1734079692160-fcbe4be6ab96?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Professional landscaping services">
+                    <img src="{{ '/assets/about-us.JPG' | relative_url }}" alt="Vivid Landscape Services">
                 </div>
             </div>
         </div>
@@ -46,28 +45,29 @@ description: Vivid Landscaping - Professional landscaping services in Sterling H
     <section class="services">
         <div class="container">
             <h2>Our Services</h2>
-            <div class="services-grid">
-                <div class="service-card">
-                    <div class="service-image">
-                        <img src="https://images.unsplash.com/photo-1632161293871-cf2083474e34?q=80&w=1173&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Landscape design service">
-                    </div>
-                    <h3>Landscape Design</h3>
-                    <p>Custom landscape design services to create beautiful, functional outdoor spaces tailored to your vision and property. We work with you to design landscapes that enhance your home's beauty and value. <strong>Fully insured</strong> for your protection.</p>
+            <div class="services-categories">
+                <div class="service-category">
+                    <h3>Lawn & Landscaping</h3>
+                    <ul class="service-list">
+                        <li>Lawn Care & Maintenance</li>
+                        <li>Mulch Installation</li>
+                        <li>Hedge & Bush Trimming</li>
+                        <li>Spring & Fall Cleanups</li>
+                        <li>Residential Landscaping</li>
+                        <li>Commercial Landscaping</li>
+                    </ul>
                 </div>
-                <div class="service-card">
-                    <div class="service-image">
-                        <img src="https://images.unsplash.com/photo-1734079692079-aae7e24a7035?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Landscape installation service">
-                    </div>
-                    <h3>Landscape Installation</h3>
-                    <p>Professional installation of plants, trees, and shrubs. We use quality materials and expert techniques to ensure your landscape thrives for years to come.</p>
+                <div class="service-category">
+                    <h3>Tree & Property Services</h3>
+                    <ul class="service-list">
+                        <li>Stump Grinding</li>
+                        <li>Tree & Shrub Services</li>
+                        <li>Snow Removal</li>
+                    </ul>
                 </div>
-                <div class="service-card">
-                    <div class="service-image">
-                        <img src="https://plus.unsplash.com/premium_photo-1661963981959-76c59c589ba4?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Landscape maintenance service">
-                    </div>
-                    <h3>Landscape Maintenance</h3>
-                    <p>Regular maintenance services including lawn care, pruning, mulching, fertilizing, and seasonal cleanup to keep your landscape looking its best throughout the year.</p>
-                </div>
+            </div>
+            <div class="services-cta">
+                <a href="#contact" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'}); return false;" class="cta-button">Request a Free Quote</a>
             </div>
         </div>
     </section>
@@ -75,22 +75,15 @@ description: Vivid Landscaping - Professional landscaping services in Sterling H
     <section class="service-area">
         <div class="container">
             <h2>Service Area</h2>
-            <p>Based in <strong>Sterling Heights, MI</strong>, we proudly serve the following areas:</p>
+            <p>Based in <strong>Sterling Heights, MI</strong>, we proudly serve:</p>
             <div class="counties-list">
                 <div class="county-item">
                     <div class="county-icon">🏘️</div>
                     <h3>Macomb County</h3>
                 </div>
-                <div class="county-item">
-                    <div class="county-icon">🏙️</div>
-                    <h3>Wayne County</h3>
-                </div>
-                <div class="county-item">
-                    <div class="county-icon">🏢</div>
-                    <h3>Oakland County</h3>
-                </div>
             </div>
-            <p>Whether you're in Sterling Heights, Metro Detroit, or the surrounding areas, we're here to help with all your landscaping needs.</p>
+            <p>Whether you're in Sterling Heights or anywhere in Macomb County, we're here to help with all your landscaping needs.</p>
+            <p>If you'd like us to check another area, please feel free to <a href="#contact" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'}); return false;">give us a call</a> and we'll be happy to discuss your project.</p>
         </div>
     </section>
 
@@ -98,11 +91,6 @@ description: Vivid Landscaping - Professional landscaping services in Sterling H
         <div class="container">
             <h2>Why Choose Us</h2>
             <div class="benefits-grid">
-                <div class="benefit-card">
-                    <div class="benefit-icon">🎨</div>
-                    <h3>Creative Design</h3>
-                    <p>We create custom landscape designs that reflect your style and enhance your property's beauty and value.</p>
-                </div>
                 <div class="benefit-card">
                     <div class="benefit-icon">🛡️</div>
                     <h3>Fully Insured</h3>
@@ -132,34 +120,6 @@ description: Vivid Landscaping - Professional landscaping services in Sterling H
         </div>
     </section>
 
-    <section class="contractors">
-        <div class="container">
-            <h2>Our Landscaping Services</h2>
-            <div class="contractors-grid">
-                <div class="contractor-card">
-                    <div class="contractor-icon">🏡</div>
-                    <h3>Residential Landscaping</h3>
-                    <p>Transform your home's outdoor space with custom landscape design and installation. From front yard makeovers to backyard retreats, we create beautiful landscapes that enhance your home's curb appeal and provide years of enjoyment.</p>
-                </div>
-                <div class="contractor-card">
-                    <div class="contractor-icon">🏢</div>
-                    <h3>Commercial Landscaping</h3>
-                    <p>Professional landscaping services for businesses, offices, and commercial properties. We create welcoming outdoor spaces that make a great first impression and enhance your property's value.</p>
-                </div>
-                <div class="contractor-card">
-                    <div class="contractor-icon">🌳</div>
-                    <h3>Tree & Shrub Services</h3>
-                    <p>Expert planting, pruning, and maintenance of trees and shrubs. We help you select the right plants for your climate and soil conditions, ensuring healthy growth and beautiful results.</p>
-                </div>
-                <div class="contractor-card">
-                    <div class="contractor-icon">🌱</div>
-                    <h3>Lawn Care & Maintenance</h3>
-                    <p>Regular lawn care services including mowing, fertilizing, aeration, and seasonal cleanup. We keep your landscape looking its best year-round with professional maintenance programs.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section class="faq">
         <div class="container">
             <h2>Frequently Asked Questions</h2>
@@ -167,37 +127,55 @@ description: Vivid Landscaping - Professional landscaping services in Sterling H
                 <div class="faq-item">
                     <button class="faq-question" type="button">
                         <span class="faq-arrow">▶</span>
-                        <span class="faq-question-text">How long does a typical landscaping project take?</span>
+                        <span class="faq-question-text">What lawn care services do you provide?</span>
                     </button>
                     <div class="faq-answer">
-                        <p>Project timelines vary depending on the scope and size of the work. Small projects like garden bed installations may take a few days, while complete landscape transformations can take several weeks. We'll provide a detailed timeline during your free consultation.</p>
+                        <p>We offer comprehensive lawn care and maintenance services including regular mowing, fertilizing, aeration, weed control, and seasonal treatments. We can create a customized maintenance schedule to keep your lawn healthy and beautiful throughout the year.</p>
                     </div>
                 </div>
                 <div class="faq-item">
                     <button class="faq-question" type="button">
                         <span class="faq-arrow">▶</span>
-                        <span class="faq-question-text">Do you provide maintenance services after installation?</span>
+                        <span class="faq-question-text">How often should I have my hedges and bushes trimmed?</span>
                     </button>
                     <div class="faq-answer">
-                        <p>Yes! We offer comprehensive maintenance programs to keep your landscape looking beautiful year-round. Services include lawn care, pruning, mulching, fertilizing, and seasonal cleanup. We can customize a maintenance schedule that fits your needs and budget.</p>
+                        <p>Most hedges and bushes benefit from trimming 2-3 times per year, typically in spring, mid-summer, and fall. However, the frequency depends on the type of plant and your desired appearance. We can assess your specific plants and recommend a trimming schedule that works best for your landscape.</p>
                     </div>
                 </div>
                 <div class="faq-item">
                     <button class="faq-question" type="button">
                         <span class="faq-arrow">▶</span>
-                        <span class="faq-question-text">What types of plants do you recommend for Michigan's climate?</span>
+                        <span class="faq-question-text">What is included in spring and fall cleanups?</span>
                     </button>
                     <div class="faq-answer">
-                        <p>We specialize in selecting plants that thrive in Michigan's climate, including native species and hardy perennials. We consider factors like sun exposure, soil conditions, and your maintenance preferences to recommend the best plants for your specific location.</p>
+                        <p>Our seasonal cleanups include removing debris, dead leaves, and branches; trimming overgrown plants; preparing flower beds; and general property tidying. Spring cleanups prepare your landscape for the growing season, while fall cleanups help protect your property during winter months.</p>
                     </div>
                 </div>
                 <div class="faq-item">
                     <button class="faq-question" type="button">
                         <span class="faq-arrow">▶</span>
-                        <span class="faq-question-text">Can you work with my existing landscape?</span>
+                        <span class="faq-question-text">Do you provide snow removal services?</span>
                     </button>
                     <div class="faq-answer">
-                        <p>Absolutely! We can enhance your existing landscape by adding new features, refreshing plantings, or redesigning specific areas. We'll work with what you have and incorporate your preferences to create a cohesive, beautiful design.</p>
+                        <p>Yes, we offer reliable snow removal services primarily for residential properties, including driveways and walkways. We provide prompt service to keep your property safe and accessible during winter months. Contact us to discuss your snow removal needs and scheduling options.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" type="button">
+                        <span class="faq-arrow">▶</span>
+                        <span class="faq-question-text">How deep do you grind stumps?</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We can grind stumps up to 15 inches deep below ground level. This depth is sufficient for most purposes, including installing fences, patios, or new landscaping. We'll discuss your specific needs during the estimate to determine the appropriate depth for your project.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" type="button">
+                        <span class="faq-arrow">▶</span>
+                        <span class="faq-question-text">Do you work on both residential and commercial properties?</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes, we provide landscaping services for both residential and commercial properties. Whether you need lawn care for your home or comprehensive landscape maintenance for your business, we have the expertise and equipment to handle projects of all sizes.</p>
                     </div>
                 </div>
                 <div class="faq-item">
@@ -206,7 +184,7 @@ description: Vivid Landscaping - Professional landscaping services in Sterling H
                         <span class="faq-question-text">What areas do you serve?</span>
                     </button>
                     <div class="faq-answer">
-                        <p>We serve Macomb, Oakland, and Wayne counties. We're based in Sterling Heights and cover the Metro Detroit area and surrounding communities.</p>
+                        <p>We serve Macomb County. We're based in Sterling Heights and cover the Metro Detroit area and surrounding communities. If you'd like us to check another area, please feel free to call and we'll be happy to discuss your project.</p>
                     </div>
                 </div>
                 <div class="faq-item">
@@ -238,7 +216,15 @@ description: Vivid Landscaping - Professional landscaping services in Sterling H
 
 <footer>
     <div class="container">
-        <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
+        <div class="footer-content">
+            <div class="footer-social">
+                <p><strong>Follow Us:</strong></p>
+                <p>
+                    <a href="https://www.facebook.com/GrassMechanic" target="_blank" rel="noopener noreferrer" class="social-link"><img src="{{ '/assets/facebook.png' | relative_url }}" alt="Facebook" class="social-icon"> Facebook</a>
+                </p>
+            </div>
+            <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
+        </div>
     </div>
 </footer>
 
